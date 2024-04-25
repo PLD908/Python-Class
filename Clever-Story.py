@@ -1,5 +1,5 @@
 # I implement a program that asks the user for a series of words
-# print("Please enter the following:")
+print("Please enter the following:")
 
 Adjective = input("adjective: ")
 Animal = input("animal: ")
@@ -16,4 +16,4 @@ print(Verb.lower())
 print(Verb.lower())
 
 print("Your story is: ")
-print('The other morning, I was strolling through the park when suddenly, a [Adjective] squirrel dashed past me. "Oh dear!" I exclaimed. Without hesitation, I decided to whistle loudly. Surprisingly, that caught its attention, but not before it attempted to dart across the path in front of my friends.')
+print('The other morning, I was strolling through the park when suddenly, a [Adjective] [Animal] [Verb] past me. "[Exclamation]" I exclaimed. Without hesitation, I decided to whistle loudly. Surprisingly, that caught its attention, but not before it attempted to dart across the path in front of my friends.')
