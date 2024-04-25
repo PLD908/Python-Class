@@ -1,5 +1,5 @@
 # I implement a program that asks the user for a series of words
-print("Please enter the following:")
+# print("Please enter the following:")
 
 Adjective = input("adjective: ")
 Animal = input("animal: ")
