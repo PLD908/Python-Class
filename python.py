@@ -1,0 +1,17 @@
+print("please enter the following information:")
+
+FirstName = input("First name: ")
+LastName = input("Last name: ")
+Email = input("Email address: ")
+Number = input("Phone number: ")
+JobTitle = input("Job title: ")
+Id = input("ID Number: ")
+
+print("The ID Card is:")
+print("--------------------------------")
+print(f'{LastName.capitalize()}, {FirstName.capitalize()}')
+print(JobTitle.capitalize())
+print("ID: " + Id)
+print(Email.lower())
+print(Number)
+print("--------------------------------")
