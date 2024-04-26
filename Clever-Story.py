@@ -4,7 +4,7 @@ print("Please enter the following:")
 Adjective = input("adjective: ")
 Animal = input("animal: ")
 Verb = input("verb: ")
-# Exclamation = input("exclamation: ")
+Exclamation = input("exclamation: ")
 Verb = input("verb: ")
 
 print("Your story is: ")
