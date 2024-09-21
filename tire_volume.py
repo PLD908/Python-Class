@@ -28,6 +28,10 @@ def main():
     aspect_ratio = float(input("Enter the aspect ratio of the tire (ex 60): "))
     diameter = float(input("Enter the diameter of the wheel in inches (ex 15): "))
 
+    width = float(width)
+    aspect_ratio = float(aspect_ratio)
+    diameter = float(diameter)
+
     # Calculate the volume
     volume = calculate_tire_volume(width, aspect_ratio, diameter)
 
