@@ -1,0 +1,50 @@
+Program Proposal
+
+1. What is the title of your program?
+Recipe Nutrition Analyzer
+
+2. What real-world problem will your program address or help solve?
+Many people struggle to understand the nutritional content of their recipes and how to make them healthier. This program will help users analyze recipes for their nutritional content, suggest healthier ingredient substitutions, and help with portion sizing.
+
+3. What will your program do to address this problem?
+The program will:
+- Parse recipe ingredients and quantities
+- Calculate total calories, macronutrients (protein, carbs, fat)
+- Identify potentially unhealthy ingredients
+- Suggest healthier substitutions
+- Calculate per-serving nutritional information
+- Save analyzed recipes to a file for future reference
+
+4. What Python modules will your program use?
+- json (for nutritional database)
+- pytest (for testing)
+- pandas (for data processing)
+- re (for parsing ingredients)
+- datetime (for logging)
+
+5. Will you store data in files? If yes, what is the purpose of each file?
+Yes:
+- nutrition_database.json: Contains nutritional information for common ingredients
+- recipe_library.json: Stores saved recipes and their analyses
+- substitutions.json: Database of healthy ingredient substitutions
+- activity_log.txt: Tracks program usage for the time log
+
+6. What are the primary functions that your program must perform?
+- parse_ingredient(ingredient_str): Separates ingredient text into quantity, unit, and item
+- calculate_nutrition(ingredients_list): Calculates total nutritional content
+- suggest_substitutions(ingredient): Suggests healthier alternatives
+- save_recipe(recipe_data): Saves analyzed recipe to file
+- load_recipe(recipe_name): Loads saved recipe
+- calculate_per_serving(total_nutrition, servings): Calculates per-serving nutrients
+
+7. Schedule: When will you write each function and test each function?
+Week 6:
+- Days 1-2: Set up project structure, create test files
+- Days 3-4: Implement parse_ingredient() and its tests
+- Days 5-7: Implement calculate_nutrition() and its tests
+
+Week 7:
+- Days 1-2: Implement suggest_substitutions()
+- Days 3-4: Implement save/load functions
+- Days 5-6: Implement calculate_per_serving()
+- Day 7: Final testing and documentation
