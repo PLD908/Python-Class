@@ -47,4 +47,4 @@ Week 7:
 - Days 1-2: Implement suggest_substitutions()
 - Days 3-4: Implement save/load functions
 - Days 5-6: Implement calculate_per_serving()
-- Day 7: Final testing and documentation
+- Day 7: Final testing and documentationcz  xdf
